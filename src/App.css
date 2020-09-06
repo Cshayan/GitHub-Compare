@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background: #f5f6fa;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.loader {
+  width: 250px;
+  height: 250px;
+}
+
+/* Header.js */
+.heading {
+  color: #5daae0;
+  padding: 2rem;
+}
+
+.header-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-icon {
+  font-size: 2rem;
+}
+
+/* InputComponent.js */
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field {
+  padding: 0.5rem;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #5daae0;
+  outline: none;
+}
+.button-submit {
+  background: #5daae0;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.5rem;
+  margin: 0 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* cards */
+.cards {
+  border: 2px solid #111;
+  width: 35%;
+  height: 100%;
+  padding: 0rem;
+  margin: 20px auto;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-cont {
+  justify-self: flex-start;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.card-detail {
+  display: flex;
+}
+
+.icon-box {
+  margin: 10px;
+  padding: 5px;
+  background: #5daae0;
+  color: #fff;
+  width: 90px;
+  height: 80px;
+}
+
+.count {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.property {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    width: 90%;
+  }
+}
